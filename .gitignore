@@ -17,7 +17,7 @@ public/content/languages
 public/content/plugins
 
 # Themes
-public/content/themes/teft-theme
+public/content/themes
 
 # Upgrade and uploads
 public/content/upgrade

@@ -1,8 +1,6 @@
 <?php
 /**
  * Development Environment
- *
- * @package Dekode
  */
 
 declare( strict_types = 1 );

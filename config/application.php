@@ -18,7 +18,7 @@ $webroot_dir = $root_dir . '/public';
  * @return string
  */
 function env( string $key ) : string {
-	return $_ENV[ $key ] ?: '';
+	return $_ENV[ $key ] ?? '';
 }
 
 /**

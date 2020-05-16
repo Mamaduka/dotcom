@@ -229,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mamaduka/suliko.git",
-                "reference": "49895b71a14d28cb14bea05e14c2b095b5e0a306"
+                "reference": "3fc48db33110e51e45816b38ecb13311075e36ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mamaduka/suliko/zipball/49895b71a14d28cb14bea05e14c2b095b5e0a306",
-                "reference": "49895b71a14d28cb14bea05e14c2b095b5e0a306",
+                "url": "https://api.github.com/repos/Mamaduka/suliko/zipball/3fc48db33110e51e45816b38ecb13311075e36ba",
+                "reference": "3fc48db33110e51e45816b38ecb13311075e36ba",
                 "shasum": ""
             },
             "require": {
@@ -256,7 +256,7 @@
                 "source": "https://github.com/Mamaduka/suliko/tree/master",
                 "issues": "https://github.com/Mamaduka/suliko/issues"
             },
-            "time": "2020-05-07T17:35:59+00:00"
+            "time": "2020-05-16T11:45:24+00:00"
         },
         {
             "name": "symfony/dotenv",

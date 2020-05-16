@@ -1,0 +1,29 @@
+*.log
+*.sassc
+.sass-cache
+.DS_Store
+.idea
+.cache-loader
+phpcs.xml
+
+node_modules
+vendor
+wp
+
+# Language files
+public/content/languages
+
+# Plugins
+public/content/plugins
+
+# Themes
+public/content/themes/teft-theme
+
+# Upgrade and uploads
+public/content/upgrade
+public/content/uploads
+
+# Dotenv
+.env
+.env.*
+!.env.example

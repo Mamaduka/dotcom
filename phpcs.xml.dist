@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Dekode Coding Standards">
+	<file>.</file>
+	<arg name="extensions" value="php" />
+	<config name="testVersion" value="7.0-" />
+	<rule ref="Dekode" />
+
+	<exclude-pattern>public/wp</exclude-pattern>
+	<exclude-pattern>public/content/languages</exclude-pattern>
+	<exclude-pattern>public/content/plugins</exclude-pattern>
+	<exclude-pattern>public/content/uploads</exclude-pattern>
+	<exclude-pattern>public/content/themes/teft-theme</exclude-pattern>
+</ruleset>

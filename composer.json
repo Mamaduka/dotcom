@@ -1,0 +1,47 @@
+{
+  "name": "mamaduka/dotcom",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "description": "",
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Mamaduka/suliko"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "^1.8",
+    "johnpbloch/wordpress-core": "^5.4",
+    "johnpbloch/wordpress-core-installer": "^2.0",
+    "mamaduka/suliko": "dev-master",
+    "symfony/dotenv": "^5.0",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.13",
+    "wpackagist-plugin/spinupwp": "^1.1"
+  },
+  "extra": {
+    "wordpress-install-dir": "public/wp",
+    "installer-paths": {
+      "public/content/mu-plugins/{$name}/": [ "type:wordpress-muplugin" ],
+      "public/content/plugins/{$name}/": [ "type:wordpress-plugin" ],
+      "public/content/themes/{$name}/": [ "type:wordpress-theme" ]
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "rm -rf public/wp/wp-content",
+      "rm -rf public/wp/composer.json"
+    ],
+    "post-root-package-install": [
+      "cp .env.example .env"
+    ]
+  }
+}

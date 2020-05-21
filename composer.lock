@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7dcfab0389236cb9a7e85901f8ad44d",
+    "content-hash": "757451f66670829bc42524e4e800fb72",
     "packages": [
         {
             "name": "composer/installers",
@@ -334,6 +334,24 @@
             "homepage": "https://wordpress.org/plugins/disable-emojis/"
         },
         {
+            "name": "wpackagist-plugin/koko-analytics",
+            "version": "1.0.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/koko-analytics/",
+                "reference": "tags/1.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/koko-analytics.1.0.12.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/koko-analytics/"
+        },
+        {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
             "version": "2.13.0",
             "source": {
@@ -350,6 +368,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        },
+        {
+            "name": "wpackagist-plugin/slim-seo",
+            "version": "3.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/slim-seo/",
+                "reference": "tags/3.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/slim-seo.3.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/slim-seo/"
         },
         {
             "name": "wpackagist-plugin/spinupwp",

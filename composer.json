@@ -25,7 +25,9 @@
     "mamaduka/suliko": "dev-master",
     "symfony/dotenv": "^5.0",
     "wpackagist-plugin/disable-emojis": "^1.7",
+    "wpackagist-plugin/koko-analytics": "^1.0",
     "wpackagist-plugin/limit-login-attempts-reloaded": "^2.13",
+    "wpackagist-plugin/slim-seo": "^3.3",
     "wpackagist-plugin/spinupwp": "^1.1"
   },
   "extra": {

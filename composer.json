@@ -20,15 +20,15 @@
   "require": {
     "php": ">=7.3",
     "composer/installers": "^1.8",
-    "johnpbloch/wordpress-core": "^5.4",
+    "johnpbloch/wordpress-core": "^5.5.0",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "mamaduka/suliko": "dev-master",
     "symfony/dotenv": "^5.0",
     "wpackagist-plugin/disable-emojis": "^1.7",
     "wpackagist-plugin/koko-analytics": "^1.0",
-    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.13",
-    "wpackagist-plugin/slim-seo": "^3.3",
-    "wpackagist-plugin/spinupwp": "^1.1"
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.15",
+    "wpackagist-plugin/slim-seo": "^3.5",
+    "wpackagist-plugin/spinupwp": "^1.2"
   },
   "extra": {
     "wordpress-install-dir": "public/wp",

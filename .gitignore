@@ -6,6 +6,8 @@
 .cache-loader
 phpcs.xml
 
+# Directories
+sql
 node_modules
 vendor
 wp

@@ -31,9 +31,9 @@ $dotenv->load( $root_dir . '/.env' );
  * Set up our global environment constant and load its config first
  * Default: production
  */
-define( 'WP_ENV', env( 'WP_ENV' ) ?: 'production' );
+define( 'WP_ENVIRONMENT_TYPE', env( 'WP_ENV' ) ?: 'production' );
 
-$env_config = __DIR__ . '/environments/' . WP_ENV . '.php';
+$env_config = __DIR__ . '/environments/' . WP_ENVIRONMENT_TYPE . '.php';
 
 if ( file_exists( $env_config ) ) {
 	require_once $env_config;
